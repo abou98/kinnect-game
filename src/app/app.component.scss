@@ -1,0 +1,29 @@
+
+nav, footer{
+  background-color: #051551;
+}
+
+header{
+  background-image: url('../assets/bg.webp');
+  background-size: cover;
+  min-height: 200px;
+}
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+.toast, .toast-header{
+  background-color: red;
+  color: white;
+}
+
+h1 span{
+  color:#051551;
+}
+
+.input-result{
+  width: 130px;
+  color: #051551;
+}
