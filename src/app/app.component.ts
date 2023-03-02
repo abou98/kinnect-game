@@ -18,6 +18,7 @@ export class AppComponent implements OnInit {
   arrayTimer: Array<number> = [];
   showToast = false;
   errorMessage: string = '';
+  title = 'Kinnect Math Game'
 
 
   constructor(){

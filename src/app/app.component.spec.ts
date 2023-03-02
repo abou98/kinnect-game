@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'kinnect-math-game'`, () => {
+  it(`should have as title 'Kinnect Math Game'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('kinnect-math-game');
+    expect(app.title).toEqual('Kinnect Math Game');
   });
 
   it('should render title', () => {
