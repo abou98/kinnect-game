@@ -44,7 +44,6 @@ export class AppComponent implements OnInit {
   }
 
   checkResult(){
-    console.log(this.result)
     if(!this.result || isNaN(this.result)){
         this.errorMessage = 'Please type un number !';
         this.showToast = true;
